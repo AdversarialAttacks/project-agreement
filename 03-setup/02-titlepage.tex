@@ -1,43 +1,57 @@
+\selectlanguage{ngerman} %ngerman or english      
 %%---TITLEPAGE---------------------------------------------------------------------------
 \title{\textbf{Projektvereinbarung}\break \\ 24FS\_I4DS27: Adversarial Attacks \\ Wie kann KI überlistet werden?} %Project Title
+%\author{}  
+%\date{Windisch, \germandate\today}      
 
-\author{}  
-\date{Windisch, \germandate\today}               
+\begin{titlepage}
+    \textcolor{white}{Easteregg: Team Secondos}
+    \vfill
+    \centering
+    \vspace{0.5cm}
+    \huge{\textbf{Projektvereinbarung}}
+    
+    \vspace{0.5cm}
+    \huge{24FS\_I4DS27: Adversarial Attacks \\ Wie kann KI überlistet werden?}
+    \vspace{0.5cm}
+    
+    \Large{Windisch, \germandate\today}      
 
-\selectlanguage{ngerman}                  %ngerman or english
-\maketitle
+    \vfill
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=11cm]{01-images/01-titleimage.png}
+        \caption{Universelle Pertubationen auf verschiedene Bilder \cite{akhtar_advances_2021}}
+        \label{01-titleimage}
+    \end{figure}
+    
+    \vfill
 
-\vfill
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=\linewidth]{01-images/01-titleimage.png}
-\end{figure}
-
-\vfill
-
-\begin{tabular}{@{}p{5cm} l}
-Studenten                    &    Si Ben Tran\\
-                           &    Gabriel Torres Gamez\\[2ex]
-
-Fachbetreuer               &    Daniel Perruchoud\\
-                           &    Stephan Heule\\[2ex]
-                           
-Auftraggeber               &    i4Ds\\
-Projektnummer              &    24FS\_I4DS\\[4ex]
-
-\multicolumn{2}{@{}l}{Fachhochschule Nordwestschweiz, Hochschule für Technik}
-\end{tabular}
-
-\vspace*{4ex}
-
-% Logo
-\begin{tikzpicture}[remember picture,overlay,every node/.style={anchor=north east}]
-  \node at (current page.north east) [xshift=-1cm, yshift=-0.4cm] {\includegraphics[width=4cm]{01-images/02-logo.png}};
-\end{tikzpicture}
-
-\begin{tikzpicture}[remember picture,overlay,every node/.style={anchor=north west}]
-  \node at (current page.north west) [xshift=1cm, yshift=-1.2cm] {\includegraphics[width=9cm]{01-images/03-fhnwlogo.pdf}};
-\end{tikzpicture}
-
-\clearpage
+    \large{
+    \begin{tabular}{@{}p{7cm}l}
+        Studenten                  &    Si Ben Tran\\
+                                   &    Gabriel Torres Gamez\\[2ex]
+        
+        Fachbetreuer               &    Daniel Perruchoud\\
+                                   &    Stephan Heule\\[2ex]
+                                   
+        Auftraggeber               &    i4Ds\\
+        Projektnummer              &    24FS\_I4DS\\[4ex]
+        
+        \multicolumn{2}{@{}l}{Fachhochschule Nordwestschweiz, Hochschule für Technik} %Hochschule für Informatik
+    \end{tabular}
+    }
+    
+    % Logo
+    \begin{tikzpicture}[remember picture,overlay,every node/.style={anchor=north east}]
+      \node at (current page.north east) [xshift=-1cm, yshift=-0.4cm] {\includegraphics[width=4cm]{01-images/02-logo.png}};
+    \end{tikzpicture}
+    
+    \begin{tikzpicture}[remember picture,overlay,every node/.style={anchor=north west}]
+      \node at (current page.north west) [xshift=1cm, yshift=-1.2cm] {\includegraphics[width=9cm]{01-images/03-fhnwlogo.pdf}};
+    \end{tikzpicture}
+    
+    \clearpage
+    
+\end{titlepage}
