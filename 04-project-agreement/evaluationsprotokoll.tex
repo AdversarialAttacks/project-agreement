@@ -1,14 +1,14 @@
 \section{Evaluationsprotokoll}
 
 \subsection{Modelle} 
-Für die Analyse dieser Fragestellungen wollen wir uns eine Vielfalt an Modelle anschauen, welche sich vom Aufbau unterscheiden. Wir wollen folgende Bildklassifikationsfamilien analysieren: AlexNet \cite{krizhevsky_imagenet_2012}, GoogLeNet \cite{szegedy_going_2014}, VGG \cite{simonyan_very_2015}, ResNet \cite{he_deep_2015}, SqueezeNet \cite{iandola_squeezenet_2016} und DenseNet \cite{huang_densely_2018}.
+Für die Analyse dieser Fragestellungen wollen wir uns eine Vielfalt an Modelle anschauen, welche sich vom Aufbau unterscheiden. Wir ziehen dabei folgende Bildklassifikationsfamilien Modelle in Betracht: AlexNet \cite{krizhevsky_imagenet_2012}, GoogLeNet \cite{szegedy_going_2014}, VGG \cite{simonyan_very_2015}, ResNet \cite{he_deep_2015}, und DenseNet \cite{huang_densely_2018}, EfficientNetV2 \cite{tan_efficientnetv2_2021}, ViT \cite{dosovitskiy_image_2021}.
 
 \subsection{Metriken} 
 In unserer Projektarbeit konzentrieren wir uns auf den Vergleich zwischen robusten und nicht robusten Modellen unter Berücksichtigung von Daten, die entweder adversarial Perturbationen enthalten oder frei davon sind.
 
 Die Metriken \textbf{ROC (AUC)} und \textbf{Recall} nutzen wir, um die Performance der Modelle zu vergleichen.
 
-Die \textbf{fooling rate} \cite{moosavi-dezfooli_universal_2017} nutzen wir, um die Anfälligkeit gegenüber Pertubationen zwischen ungeschützten und geschützten Modellen zu quantifizieren. Laut Moosavi et. al \cite{moosavi-dezfooli_universal_2017} können verschiedene universellen Pertubationen anhand von Random Shuffling des Trainingsdatensatzes generiert werden. Diese können wir nutzen, um ein Konfidenzintervall über die fooling rate zu erhalten, um anschliessend die statistische Signifikanz der Modellanfälligkeit auszurechnen. 
+Die \textbf{fooling rate} \cite{moosavi-dezfooli_universal_2017} nutzen wir, um die Anfälligkeit gegenüber Perturbationen zwischen ungeschützten und geschützten Modellen zu quantifizieren. Laut Moosavi et. al \cite{moosavi-dezfooli_universal_2017} können verschiedene universellen Perturbationen anhand von Random Shuffling des Trainingsdatensatzes generiert werden. Diese können wir nutzen, um ein Konfidenzintervall über die fooling rate zu erhalten, um anschliessend die statistische Signifikanz der Modellanfälligkeit auszurechnen. 
 
 Im Verlauf unserer Projektarbeit könnte es zudem möglich sein, dass wir weitere relevante Metriken identifizieren und in unsere Evaluierung mit einbeziehen. 
 
