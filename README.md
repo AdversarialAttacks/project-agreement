@@ -1,3 +1,3 @@
-# project-agreement
+# Projektvereinbarung
 
-This repository hosts the LaTeX Code for the project agreement.
+Dieses Repository enthält den LaTeX-Code für die Projektvereinbarung.
